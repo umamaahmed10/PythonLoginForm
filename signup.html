@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+title = Signup
+{% block body %}
+        <h1>Sign Up</h1>
+
+        <div class="container">
+            <form action="/signup" method="post">
+                <label for="em">Email ID</label>
+                <input autocomplete="off" id="em" autofocus name="email" placeholder="your email id" type="text">
+                <label for="fname">First Name</label>
+                <input autocomplete="off" id="fname" autofocus name="firstname" placeholder="enter your first name" type="text">
+                <label for="lname">Last Name</label>
+                <input autocomplete="off" id="lname" autofocus name="lastname" placeholder="enter last name" type="text">
+                <label for="uname">User Name</label>
+                <input autocomplete="off" id="uname" autofocus name="username" placeholder="enter user name" type="text">
+                <label for="pd">Password</label>
+                <input autocomplete="off" id="pd" autofocus name="password" placeholder="enter password" type="text">
+                <input type="submit" value="Submit" >
+            </form>
+        </div>
+
+{% endblock %} 
+
