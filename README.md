@@ -4,7 +4,7 @@
 ---
 
 ## login form app using Python Flask Framework
-**I have used Beautiful Soup, Selenium, Excel, VS Code and other tools.**
+**Created a Python Flask Application using Beautiful Soup, Selenium, Excel, VS Code and other tools by performing the tasks in following order.**
 
 
 Extract data of top rated movies from IMDb using this URL _https://www.imdb.com/chart/top/_ and save it in a CSV file in following columns.
