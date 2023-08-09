@@ -1,5 +1,5 @@
 # Gad-repo
-#### Gaditek
+#### Gaditek Project
 
 ---
 
