@@ -1,0 +1,42 @@
+{% extends "layout.html" %} title = login {% block body %}
+
+<h1>Login</h1>
+<div class="container">
+  <form action="/login" method="post">
+    <label for="uname">Enter your user name</label>
+    <input
+      id="uname"
+      autocomplete="off"
+      autofocus
+      name="username"
+      placeholder="Name"
+      type="text"
+    />
+    <label for="pd">Enter your password</label>
+    <input
+      autocomplete="off"
+      autofocus
+      name="password"
+      placeholder="Password"
+      type="text"
+    />
+    <label>
+      <input
+        style="margin-top: 10px"
+        type="checkbox"
+        checked="checked"
+        name="remember"
+      />
+      Remember me<br />
+    </label>
+    <input type="submit" value="Submit" />
+
+    <label for="cancel"><br /></label>
+    <button id="cancel" type="button">Cancel</button>
+
+    <span style="float: right; padding-top: 26px"
+      >Forgot <a href="#">password?</a>
+    </span>
+  </form>
+</div>
+{% endblock %}
